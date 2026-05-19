@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils"
-import { type Cell, type Player } from "@/hooks/useGame"
+import { type Cell } from "@/hooks/useGame"
 import { Button } from "@/components/ui/button"
 
 interface BoardProps {
