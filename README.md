@@ -1,21 +1,32 @@
-# React + TypeScript + Vite + shadcn/ui
+# Tic-Tac-Toe
 
-This is a template for a new Vite project with React, TypeScript, and shadcn/ui.
+A modern Tic-Tac-Toe game built with React, TypeScript, Vite, and shadcn/ui.
 
-## Adding components
+## Features
 
-To add components to your app, run the following command:
+- Classic Tic-Tac-Toe gameplay
+- Move history tracking
+- Interactive score board
+- Dark/Light mode support
+- Modern, responsive UI
+
+## Getting Started
+
+1. Install dependencies:
 
 ```bash
-npx shadcn@latest add button
+npm install
 ```
 
-This will place the ui components in the `src/components` directory.
+2. Start the development server:
 
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button"
+```bash
+npm run dev
 ```
+
+## Tech Stack
+
+- React (TypeScript)
+- Vite
+- Tailwind CSS
+- shadcn/ui
